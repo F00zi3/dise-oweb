@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form onsubmit="event.preventDefault(); result();">
+    <h2>Marca</h2>
+    <input id="Marca" type="text" name="marca" />
+    <h2>Modelo</h2>
+    <input id="Modelo" type="text" name="modelo" />
+    <h2>Año</h2>
+    <input id="Año" type="date" name="año" /> <br><br>
+    <button type="submit" onclick="result">Envia tu informacion</button>
+  </form>
+  <script>
+    function result() {
+      var Marca = document.getElementById('Marca').value;
+      var Modelo = document.getElementById('Modelo').value;
+      var Año = document.getElementById('Año').value;
+      document.write(Marca + " ");
+      document.write(Modelo + " ");
+      document.write(Año + " ");
+      return false;
+    }
+  </script>
+</body>
+
+</html>

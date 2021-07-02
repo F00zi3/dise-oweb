@@ -1,0 +1,32 @@
+body{
+    width: 480px;
+    margin: auto;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cd25{
+    width: 25%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #8E8B8B;
+   
+}
+input{
+    width: 25%;
+    height: 35px;
+    
+}
+#abajo{
+    width: 75%;
+    height: 25px;
+}
+#sumbit{
+    width: 25%;
+    height: 50px;
+    background-color: blue;
+}
